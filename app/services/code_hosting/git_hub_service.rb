@@ -69,6 +69,11 @@ module FastlaneCI
       client.login
     end
 
+    # Primary email address of the current GitHub user
+    def email
+      client.emails.find { |e| e[:primary] == true }[:email]
+    end
+
     # returns all open pull requests on given repo
     # branches should be nil if you want all branches to be considered
     def open_pull_requests(repo_full_name: nil, branches: nil)
