@@ -9,7 +9,7 @@ module FastlaneCI
       return json(Services.onboarding_service.correct_setup?)
     end
 
-    get "#{HOME}/userDetails" do
+    get "#{HOME}/user_details" do
       code_hosting_service = current_user_config_service.code_hosting_service(
         provider_credential: Services.provider_credential
       )
