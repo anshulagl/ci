@@ -1,4 +1,4 @@
- <h3 align="center">
+    <h3 align="center">
   <img src="docs/assets/fastlane_text.png" alt="fastlane Logo" width=500 />
 </h3>
 
