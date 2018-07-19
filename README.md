@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="docs/assets/fastlane_text.png" alt="fastlane Logo" width=500 />
+   <img src="docs/assets/fastlane_text.png" alt="fastlane Logo" width=500 />
 </h3>
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/fastlane/ci/blob/master/LICENSE)
